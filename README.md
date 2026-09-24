@@ -1,12 +1,17 @@
 # Auditoría y Calidad QA
 
-Sitio estático, responsive y listo para Vercel. Incluye tres vistas: Desempeño, Evaluación de atributos y Detalle de hallazgo.
+Dashboard estático e interactivo listo para Vercel.
 
-## Publicación
+## Funciones
+- Navegación entre Desempeño, Evaluación de atributos y Detalle de hallazgo.
+- Filtros por período, partner e instalación.
+- Botón Actualizar datos que recalcula KPI y todas las gráficas.
+- Botón Limpiar filtros.
+- Exportación CSV de la vista filtrada.
+- Diseño responsive.
 
-1. Sube todos los archivos de esta carpeta a un repositorio de GitHub.
-2. En Vercel, selecciona **Add New > Project** e importa el repositorio.
-3. Mantén **Framework Preset: Other** y deja vacíos Build Command y Output Directory.
-4. Selecciona **Deploy**.
+## Actualizar en GitHub
+Reemplaza `index.html`, `app.js` y `styles.css` por esta versión y confirma el commit. Vercel desplegará el commit conectado.
 
-No publiques datos personales de clientes ni evaluaciones nominales de colaboradores. La versión entregada usa datos agregados y nombres anonimizados.
+## Nota de datos
+La versión entregada usa datos agregados de demostración y especialistas anonimizados. Para leer los Excel automáticamente se requiere una fuente de datos o backend autorizado.
